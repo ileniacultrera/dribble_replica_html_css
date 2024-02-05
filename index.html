@@ -4,23 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="indexxx.css">
+    <script src="https://kit.fontawesome.com/54c8c90fcc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+                theme: {
+                    extend: {
+                        animation: {
+                            marquee: 'marquee 45s linear infinite',
+                            marquee2: 'marquee2 45s linear infinite',
+                        },
+                        keyframes: {
+                            marquee: {
+                                '0%': { transform: 'translateX(0%)' },
+                                '100%': { transform: 'translateX(-100%)' },
+                            },
+                            marquee2: {
+                                '0%': { transform: 'translateX(100%)' },
+                                '100%': { transform: 'translateX(0%)' },
+                            },
+                        },
+                    },
+                },
+            }
+    </script>
     <title>Dribbble</title>
 </head>
 <body>
-    <!-- Header (navbar+jumbo)-->
     <header>
         <!-- Navbar-->
         <nav>
-           <ul class="nav-list">
-            <li> <a href="">Trova talento</a></li>
-            <li> <a href="">Ispirazione</a></li>
-            <li> <a href="">Impara il design <i class="fa-solid fa-arrow-down"></i></a></li>
-            <li> <a href="">Lavori</a></li>
-            <li> <a href="">Diventa professionista</a></li>
-           </ul>
-
-           <img src="https://cdn.discordapp.com/attachments/1197125727267602476/1204005478330408970/logo.png?ex=65d3287b&is=65c0b37b&hm=8dbfa2fa3f3b463bf400063d31c76d563776219f34afe6ac920a40a25b7da825&" 
-           alt="logo">
+            <div class="flex justify-between w-[100vw] h-[100px] bg-white p-5s">
+               <div class="w-[40px] flex items-center max-[451px]:hidden max-[768px:hidden font-bolt]">
+                     <li> <a href="">Trova talento</a></li>
+                     <li> <a href="">Ispirazione</a></li>
+                     <li> <a href="">Impara il design <i class="fa-solid fa-arrow-down"></i></a></li>
+                     <li> <a href="">Lavori</a></li>
+                     <li> <a href="">Diventa professionista</a></li>
+                </div>
+                  <div class="flex justify-center items-center w-[20%]">
+                       <a href="#">
+                        <img class="w-[100px]" src="https://cdn.discordapp.com/attachments/1197125727267602476/1204005478330408970/logo.png?ex=65d3287b&is=65c0b37b&hm=8dbfa2fa3f3b463bf400063d31c76d563776219f34afe6ac920a40a25b7da825&" 
+                        alt="logo">
+                       </a>
+                       
+                 </div>
 
            <div class="container-navds">
 
