@@ -6,48 +6,6 @@
     text-decoration: none;
 }
 
-
-
-body {
+body{
     background-color: #f8f7f4;
-    /*display: inline-block;*/
-    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
-    
-}
-
-.nav-list li a i {
-    margin-right: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-list ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav img {
-    height: 27px;
-}
-
-.container-input{
-    padding: 0 30px;
-    border-radius: 5px;
-    background-color: white;
-    width: 230px;
-}
-
-.container-navds input i {
-    color: rgb(226, 225, 225);
-}
-
-.container-navds input {
-    width: 173px;
-    height: 48px;
-    margin-left: 5px;
-    font-size: 14px;
-    border: none;
-    background-color: white;
 }
